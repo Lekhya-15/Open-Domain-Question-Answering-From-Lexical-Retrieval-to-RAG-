@@ -1,0 +1,12 @@
+datasets
+numpy
+pandas
+scikit-learn
+tqdm
+rank-bm25
+sentence-transformers
+faiss-cpu
+torch
+transformers
+notebook
+ipykernel

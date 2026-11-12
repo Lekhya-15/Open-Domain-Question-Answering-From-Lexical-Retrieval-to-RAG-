@@ -49,9 +49,12 @@ The group report compares the three methods side by side: [`report/Project10_Gro
 │   ├── requirements.txt
 │   └── notebooks/Project10_Group28_23CS30033.ipynb
 └── method3_lekhya_23CS10039/
-    └── NLP_RAG.ipynb                         all three tasks in one Colab notebook
+    ├── README.md                             method, results, how to run
+    ├── requirements.txt
+    ├── NLP_RAG.ipynb                         all three tasks in one Colab notebook
+    └── outputs/results_summary.md            full results tables and analysis
 ```
 
 ## Running
 
-All notebooks were run on Google Colab with a T4 GPU. Open a notebook in Colab, set **Runtime → Change runtime type → T4 GPU**, and use **Runtime → Run all**. The first cells install anything Colab is missing. See the Method 1 README for local setup and more detail.
+All notebooks were run on Google Colab with a T4 GPU. Open a notebook in Colab, set **Runtime → Change runtime type → T4 GPU**, and use **Runtime → Run all**. The first cells install anything Colab is missing. See each method's README for local setup and more detail.
