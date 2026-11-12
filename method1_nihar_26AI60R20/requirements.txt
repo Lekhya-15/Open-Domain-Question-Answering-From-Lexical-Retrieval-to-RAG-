@@ -1,0 +1,15 @@
+datasets
+numpy
+pandas
+scikit-learn
+matplotlib
+tqdm
+rank-bm25
+spacy
+torch
+transformers
+accelerate
+sentence-transformers
+faiss-cpu
+notebook
+ipykernel

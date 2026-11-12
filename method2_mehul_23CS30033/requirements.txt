@@ -1,0 +1,16 @@
+# versions from the reported Colab run (Python 3.13, CUDA 13.0)
+torch==2.14.1
+transformers==5.22.1
+sentence-transformers==5.7.0
+datasets==4.8.5
+accelerate==1.15.0
+faiss-cpu==1.11.0
+rank_bm25==0.2.2
+spacy==3.8.18
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+numpy==2.4.6
+pandas==2.2.3
+matplotlib==3.10.0
+# scikit-learn (stop-word list only): use the Colab version; re-run Setup to get it pinned in results/requirements.txt
+scikit-learn
+jupyter
